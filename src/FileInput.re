@@ -5,7 +5,7 @@ let make =
     (
       ~name: string="",
       ~label: string,
-      ~onChange,
+      ~onChange: (Js.t({..}) as 'a) => unit,
       ~helperText: string="",
       ~formControlProps: option(Js.t({..}))=?,
       ~inputLabelProps: option(Js.t({..}))=?,
