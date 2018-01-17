@@ -1867,7 +1867,7 @@ map-obj@^1.0.0, map-obj@^1.0.1:
 
 "material-ui-file-input@https://github.com/georgelima/react-material-file-input":
   version "1.0.9"
-  resolved "https://github.com/georgelima/react-material-file-input#7b999d17c2cef681fd0e6936089164b296bd17ce"
+  resolved "https://github.com/georgelima/react-material-file-input#609129b7f39cb97aa1be52048d35950d2eb2c583"
   dependencies:
     material-ui "^1.0.0-beta.29"
     material-ui-icons "^1.0.0-beta.17"
