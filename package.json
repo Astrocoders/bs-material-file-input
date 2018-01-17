@@ -1,8 +1,8 @@
 {
-  "name": "bs-react-stepper",
+  "name": "bs-react-material-file-input",
   "version": "0.0.10",
-  "description": "Reason bindings for bs-react-stepper",
-  "main": "/lib/js/src/HorizontalStepper.js",
+  "description": "Reason bindings for material-file-input",
+  "main": "/lib/js/src/FileInput.js",
   "keywords": [
     "react",
     "react-component",
@@ -11,15 +11,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/georgelima/bs-react-stepper.git"
+    "url": "git+https://github.com/georgelima/bs-react-material-input.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
   "bugs": {
-    "url": "https://github.com/georgelima/bs-react-stepper/issues"
+    "url": "https://github.com/georgelima/bs-react-material-input/issues"
   },
-  "homepage": "https://github.com/georgelima/bs-react-stepper/readme",
+  "homepage": "https://github.com/georgelima/bs-react-material-input/readme",
   "scripts": {
     "precommit": "lint-staged",
     "build": "bsb -make-world",

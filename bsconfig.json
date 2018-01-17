@@ -1,5 +1,5 @@
 {
-  "name": "bs-react-stepper",
+  "name": "bs-react-material-file-input",
   "bsc-flags": ["-bs-super-errors"],
   "sources": ["src"],
   "bs-dependencies": ["reason-react"],
