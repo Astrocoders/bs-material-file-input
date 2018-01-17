@@ -1865,9 +1865,9 @@ map-obj@^1.0.0, map-obj@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
 
-"material-ui-file-input@https://github.com/georgelima/react-material-file-input":
+"material-ui-file-input@https://github.com/Astrocoders/material-file-input":
   version "1.0.9"
-  resolved "https://github.com/georgelima/react-material-file-input#609129b7f39cb97aa1be52048d35950d2eb2c583"
+  resolved "https://github.com/Astrocoders/material-file-input#9954153cada75f91312ac03b1ec0aed6f4782f38"
   dependencies:
     material-ui "^1.0.0-beta.29"
     material-ui-icons "^1.0.0-beta.17"

@@ -3,12 +3,7 @@
   "version": "0.0.10",
   "description": "Reason bindings for material-file-input",
   "main": "/lib/js/src/FileInput.js",
-  "keywords": [
-    "react",
-    "react-component",
-    "reason-react",
-    "bucklescript"
-  ],
+  "keywords": ["react", "react-component", "reason-react", "bucklescript"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/georgelima/bs-react-material-input.git"
@@ -31,9 +26,7 @@
     "format": "prettier --write ./*.{js,json} ./**/*.{js,json}"
   },
   "author": "George Lima <georgelima11@hotmail.com>",
-  "contributors": [
-    "George Lima <georgelima11@hotmail.com>"
-  ],
+  "contributors": ["George Lima <georgelima11@hotmail.com>"],
   "license": "MIT",
   "devDependencies": {
     "bs-platform": "2.1.0",
@@ -47,16 +40,11 @@
     "reason-react": "0.3.0"
   },
   "lint-staged": {
-    "*.{js,json}": [
-      "prettier --write",
-      "git add"
-    ],
-    "src/**/*.re": [
-      "refmt --in-place",
-      "git add"
-    ]
+    "*.{js,json}": ["prettier --write", "git add"],
+    "src/**/*.re": ["refmt --in-place", "git add"]
   },
   "dependencies": {
-    "material-ui-file-input": "https://github.com/georgelima/react-material-file-input"
+    "material-ui-file-input":
+      "https://github.com/Astrocoders/material-file-input"
   }
 }
