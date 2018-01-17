@@ -3,13 +3,13 @@ external reactClass : ReasonReact.reactClass = "default";
 
 let make =
     (
-      ~name="",
-      ~label,
+      ~name: string="",
+      ~label: string,
       ~onChange,
-      ~helperText="",
-      ~formControlProps=?,
-      ~inputLabelProps=?,
-      ~inputProps=?,
+      ~helperText: string="",
+      ~formControlProps: option(Js.t({..}))=?,
+      ~inputLabelProps: option(Js.t({..}))=?,
+      ~inputProps: option(Js.t({..}))=?,
       _children
     ) =>
   ReasonReact.wrapJsForReason(
